@@ -12,7 +12,7 @@ public class CustomerController {
 
     @GetMapping
     public List<Customer> customers() {
-        return List.of(new Customer("Frank Tyler"), new Customer("Denise Tyler"));
+        return List.of(new Customer("Frank Tyler"), new Customer("Denise Tyler"), new Customer("Ethan Tyler"));
     }
 
 }
