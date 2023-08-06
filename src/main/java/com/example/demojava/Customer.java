@@ -1,4 +1,4 @@
 package com.example.demojava;
 
-public record Customer(String name) {
+public record Customer(String firstName, String lastName) {
 }
